@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/jumento.xsl"?>
+<page>
+  <head>
+      <title>jumento</title>
+  </head>
+  <body>
+    <nav>
+        <menu>
+            <home nickname="jumento" name="Software Creator jumento" href="#" />
+            <main>
+                <item name="Inicio" href="#" />
+                <item name="Acerca de" href="#" />
+                <item name="Contacto" href="#" />
+            </main>
+            <dropdown name="Aplicaciones" href="#" caret="true">
+                <item name="Crear" href="#"/>
+                <item name="Editar" href="#"/>
+                <item name="Exportar" href="#"/>
+                <item type="divider" href="#"/>
+                <item type="header" name="Módulos" href="#"/>
+                <item name="Descargar" href="#"/>
+            </dropdown>
+            <dropdown name="Ayuda" href="#" caret="true">
+                <item name="Iniciar" href="#"/>
+                <item type="divider" href="#"/>
+                <item type="header" name="Sitios Web" href="#"/>
+                <item name="Sitio Web de jumento" href="#"/>
+                <item name="Sitio Web del Autor" href="#"/>
+            </dropdown>
+
+            <signin name="Ingresar" />
+            <search holder="Buscar..." />
+        </menu>
+        <previous href="#" name="Anterior"/>
+        <next href="#" name="Siguiente"/>
+    </nav>
+    <carousel>
+        <slide num="0" img="img/jumentoheader1bg.png" alt="Crea tu Aplicación" href="#" button="Leer Más..."></slide>
+        <slide num="1" img="img/jumentoheader2bg.png" alt="Edita tu Aplicación" href="#" button="Leer Más..."></slide>
+        <slide num="2" img="img/jumentoheader3bg.png" alt="Descarga Módulos" href="#" button="Leer Más..."></slide>
+        <slide num="3" img="img/jumentoheader4bg.png" alt="Exporta tu Aplicación" href="#" button="Leer Más..."></slide>
+    </carousel>
+    
+    <blog>
+          <post href="#">
+              <title>Crea o Edita tu Aplicación</title>
+              <date>Feb 19, 2015</date>
+              <author href="#">jumanja</author>
+              <content>
+              <p>
+              <jumento/> permite crear y editar aplicaciones locales, sean prototipos o aplicaciones completas. Luego podrás exportarlas para distribuirlas a tus clientes.
+              </p>
+              </content>
+          </post>
+          <post href="#" resume="yes">
+              <title>Descarga Módulos</title>
+              <date>Feb 19, 2015</date>
+              <author href="#">jumanja</author>
+              <content>
+              <p>
+                  <jumento/> permite descargar Módulos a tus aplicaciones locales, y de ésta forma acelerar el desarrollo de tu aplicación y aumentar sus funcionalidades. Al hacer parte de tu aplicación, los módulos también se exportarán cuando se exporte tu aplicación.
+              </p>
+              </content>
+          </post>
+          <post href="#">
+              <title>Exporta tus Aplicaciones</title>
+              <date>Feb 19, 2015</date>
+              <author href="#">jumanja</author>
+              <content>
+              <p>
+              Tu puedes elegir exportar y compartir una de tus aplicaciones como Módulos para que también pueda ser utilizada por la comunidad <jumento/>
+              </p>
+              </content>
+          </post>          
+          
+    </blog>
+
+    <login title="Pantalla de Ingreso">
+      <email holder="Email"></email>
+      <password holder="Password" />
+      <submit name="Submit" />
+    </login>
+
+    <!-- must process
+         url="http://www.ofmconv.net/index.php?option=com_content&view=category&id=20&Itemid=514&lang=es&format=feed&type=atom
+    -->     
+    <links type="rss" title="Más Información">
+      <item href="#">Novedad 1</item>
+      <item href="#">Novedad 2</item>
+      <item href="#">Novedad 3</item>
+    </links>
+
+    <links type="glry" title="Galería">
+      <item href="#">Imágenes</item>
+      <item href="#">Audio</item>
+      <item href="#">Video</item>
+    </links>
+
+    <links type="social" title="Redes Sociales">
+      <item href="#">Twitter</item>
+      <item href="#">Facebook</item>
+    </links>
+    
+    <comments title="Acerca de..">
+      <p>Según el <a href="http://books.google.com/books?id=j6IFAAAAQAAJ&amp;pg=310&amp;dq=jumento&amp;hl=es">Diccionario Etimológico de Monlau</a>, la palabra latina <i>iumentum</i> viene del verbo <i>iuvare</i>, que significa "ayudar y sostener, ser el apoyo productivo de la sociedad". De <i>iuvare</i> viene la palabra <i>iuvenis</i> (joven). <jumento/> pretende ser su aliado y apoyo en la creación y actualización de aplicaciones.
+</p>
+    </comments>
+            
+  </body>
+</page>

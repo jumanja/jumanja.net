@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/cv.xsl"?>
+<page lang="en" encoding="utf-8">
+  <head>
+      <title>jumanja | Juan Luis Manjarres P</title>
+  </head>
+  <body>
+    <nav>
+        <brand href="http://jumanja.net">jumanja.net</brand>
+        <menubar>
+           <link name="Overview" href="#" />
+           <link name="Skills" href="#skills" />
+           <link name="Social" href="#social" />
+           <email type="email" name="Email me" >
+                <email>jumanja@gmail.com</email>
+                <subject>I%20saw%20your%20page,%20I%20need%20to%20contact%20 you</subject>
+                <body>http%3A%2F%2Fjumanja.net</body>
+           </email> 
+        </menubar>
+        <menu>
+           <link name="Overview" current="true" href="#" />
+           <link name="DashBoard" href="#dashboard" />
+           <link name="Latest Companies" href="#companies" />
+           <link name="Education" href="#education" />
+           <link name="Computer Skills" href="#skills" />
+           <link name="Languages" href="#languages" />
+           <link name="Other Courses" href="#othercourses" />
+        </menu>
+    </nav>
+    
+    <sections>
+          <summary>
+
+              <title>Juan Luis Manjarrés P.</title>
+              <img src="img/fotosmall.jpg" />
+              <ul>
+                  <li>Senior Developer, Java Certified.</li>
+                  <li>Tec. Software Implementation.</li>
+                  <li>Tec. Graphic Design.</li>
+                  <li>Development and IT Leader.</li>
+              </ul>
+
+          </summary>
+          
+          <overview>
+              <title>Overview</title>
+              <desc>Senior Developer able to act when needed as a team leader for any IT related Project, Hiring Processes, and QA. One of my main goals is always to improve myself in a personal and professional way during my work in a company. I am a hard working person, proactive, and honest. Able to travel 10%, and Not interested in relocation. JAVA, PHP, HTML5, Android Apps.
+              </desc>
+
+          </overview>
+          
+          <dashboard title="Dashboard" >
+              <img src="img/langprog.png" link="#skills" 
+                        line1="Programming" 
+                        line2="Languages" 
+                        link_title="Full Details" 
+                        link_alt="Programming Languages" />
+
+              <img src="img/databases.png" link="#skills" 
+                        line1="Databases" 
+                        line2="Manipulation" 
+                        link_title="Full Details" />
+
+              <img src="img/webndesign.png" link="#skills" 
+                        line1="Web" 
+                        line2="and Design" 
+                        link_title="Full Details" />
+
+              <img src="img/scriptnshell.png" link="#skills" 
+                        line1="Scripting" 
+                        line2="and Shell" 
+                        link_title="Full Details" />
+
+              <img src="img/servers.png" link="#skills" 
+                        line1="Scripting" 
+                        line2="and Containers" 
+                        link_title="Full Details" />
+
+              <img src="img/osplatforms.png" link="#skills" 
+                        line1="OS" 
+                        line2="and Platforms" 
+                        link_title="Full Details" />
+                                                
+          </dashboard>
+
+          <companies>
+              <table_respon title="Last 3 Companies">
+                  <thead>
+                      <tr>
+                          <th>Period</th>
+                          <th>Years</th>
+                          <th>Position</th>
+                          <th>Company</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>2.012 to Present</td>
+                          <td>+3</td>
+                          <td><a href="#" title="JAVA J2EE Modules development for ClientTrade (Trading Software), for Banks
+    around the world (Off-site and On-site)">IT Specialist</a></td>
+                          <td><a title="http://www.banktrade.com" target="pop" href="http://www.banktrade.com">BT Systems, LLC </a></td>
+                      </tr>
+                  </tbody>
+                  <a name="education"></a>
+              </table_respon>
+          </companies>
+          
+          <education>
+              <table_respon title="Most Relevant Education">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Year</th>
+                  <th>Institute</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Systems Engineer</td>
+                  <td>2.017 (on-going)</td>
+                  <td>Politécnico GranColombiano</td>
+                </tr>
+                <tr>
+                  <td>Prof. Tec. Software Implementation</td>
+                  <td>2.014</td>
+                  <td>Politécnico GranColombiano</td>
+                </tr>
+                <tr>
+                  <td>Tec. Graphic Design</td>
+                  <td>2.006</td>
+                  <td>INCAP</td>
+                </tr>
+                <tr>
+                  <td>Sun Certified Java Programmer 1.4</td>
+                  <td>2.003</td>
+                  <td>Sun MicroSystems of Colombia</td>
+                </tr>
+                <tr>
+                  <td>Software Analisis and Development</td>
+                  <td>1.991</td>
+                  <td>CE-SISTEMAS LTDA.</td>
+                </tr>
+              </tbody>
+              <a name="skills"></a>
+
+              </table_respon>
+          </education>
+          
+          <skills>
+              <table_respon title="Computer Skills">
+              <thead>
+                <tr>
+                  <th>Level</th>
+                  <th>Programming</th>
+                  <th>Databases</th>
+                  <th>Web and Design</th>
+                  <th>Scripting</th>
+                  <th>Shell</th>
+                  <th>Servers</th>
+                  <th>Containers</th>
+                  <th>OS and Platforms</th>
+                  <th>Others</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <th>Expert</th>
+                    <td>JAVA, Clipper, DBASE</td>
+                    <td>ORACLE, MySQL</td>
+                    <td>HTML, CSS, XML + XSLT, JQuery UI, GIMP</td>
+                    <td>JavaScript, JQuery, JQuery Mobile</td>
+                    <td>MsDOS and Windows .bat </td>
+                    <td>Apache</td>
+                    <td>Apache Tomcat</td>
+                    <td>Windows - from 3.1 to 7, Linux - RedHat, RHEL, Fedora, Ubuntu</td>
+                    <td>SQL, Eclipse, NetBeans, Excel, Word, Powerpoint, Outlook</td>
+                </tr>
+
+                <tr>
+                    <th>Professional</th>
+                    <td>PHP, HTML5 Javascript Android Apps, Intersystems Caché, FoxPro, C#</td>
+                    <td>PostgreSQL, SQLite, Apache DERBY</td>
+                    <td>Bootstrap, Adobe Photoshop, Inkscape</td>
+                    <td>VBA, VBScript</td>
+                    <td>Linux Shell</td>
+                    <td>POP3, SMTP, Squid Proxy</td>
+                    <td>Weblogic</td>
+                    <td>AIX, Adobe AIR</td>
+                    <td>CVS, SourceSafe, SVN, Joomla</td>
+                </tr>
+                
+                <tr>
+                    <th>Advanced</th>
+                    <td>J2EE, JSP, Node.js, Delphi, ASP, Foxpro, Visual FoxPro</td>
+                    <td>MSSQL Server, BDE, Intersystems Caché DB</td>
+                    <td>Adobe Flash, Flex, FreeHand</td>
+                    <td>Actionscript</td>
+                    <td>Windows PowerShell</td>
+                    <td>SAMBA, Windows NT y Windows Server</td>
+                    <td>Websphere, JBoss</td>
+                    <td>iOS and Windows Phone 8 apps, Intel XDK</td>
+                    <td>PL-SQL, Transact-SQL, GIT,  Wordpress, OS Commerce, Moodle</td>
+                </tr>
+                
+                      <a name="languages"></a>
+              </tbody>
+              </table_respon>
+          </skills>
+          
+
+          <languages>
+              <table_respon title="Languages">
+              <thead>
+                <tr>
+                  <th>Language</th>
+                  <th>Level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>English</td>
+                  <td>Written, Spoken, Translation, and Technical, Advanced Level. From 2.008
+to present, I have worked for American companies, so all formal communications were in
+English. Also, first 4 years at least once per week I had participation on audios in
+English.</td>
+                </tr>
+                <tr>
+                  <td>Spanish</td>
+                  <td>Native.</td>
+                </tr>
+              </tbody>
+              <a name="othercourses"></a>
+
+              </table_respon>
+          </languages>
+                    
+          <othercourses>
+              <table_respon title="Other Courses">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Title</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2.010</td>
+                  <td>Basic Maya 3D</td>
+                  <td>CAD Diseño Digital. Technical.</td>
+                </tr>
+                <tr>
+                  <td>2.006</td>
+                  <td>IT Strategic Planning.</td>
+                  <td>Channel Plannet. Seminar.</td>
+                </tr>
+                <tr>
+                  <td>2.005</td>
+                  <td>Flashtoon Network.</td>
+                  <td>Flash Animations.</td>
+                </tr>
+                <tr>
+                  <td>2.004</td>
+                  <td>Managing Oracle on Linux.</td>
+                  <td>Setup and Tunning of Oracle-Linux, and Linux-Oracle.</td>
+                </tr>
+                <tr>
+                  <td>2.000</td>
+                  <td>Redhat Linux 6.0</td>
+                  <td>Redhat Linux Setup and Tunning</td>
+                </tr>
+                <tr>
+                  <td>2.000</td>
+                  <td>ASP and PHP</td>
+                  <td>Using ASP and PHP for DataBased websites.</td>
+                </tr>
+                <tr>
+                  <td>1.998</td>
+                  <td>IBM Training</td>
+                  <td>Building Leadership for Teams and AIX/6000 V4 user path</td>
+                </tr>
+                <tr>
+                  <td>1.988</td>
+                  <td>INEM Miguel A. Caro</td>
+                  <td>Bachelor, Chemical (High School).</td>
+                </tr>
+              </tbody>
+              <a name="showcase"></a>
+
+              </table_respon>
+          </othercourses>
+          
+          <showcase>
+              <table_respon title="ShowCase">
+              <thead>
+                <tr>
+                  <th>Since</th>
+                  <th>Title</th>
+                  <th>Description</th>
+                  <th>Technical</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2.015</td>
+                  <td><a href="https://play.google.com/store/apps/details?id=net.LuzEnTuVida">LuzEnTuVida Android APP</a></td>
+                  <td>Android APP Designed and developed by me. Work in progress but initial version is already available in Google Play.</td>
+                  <td>Free Android CrossWalk APP (arm and x86) using Intel XDK.</td>
+                </tr>
+              
+                <tr>
+                  <td>2.013</td>
+                  <td><a href="http://www.franciscanosconventuales.com">www.FranciscanosConventuales.com</a></td>
+                  <td>WebSite for the "Orden de Franciscanos Menores Conventuales" (OFMC). Designed and Coded by me using PHP.</td>
+                  <td>JQuery, JQuery UI, HTML5, CSS3, PHP5, MySQL5. It contains an Administration Module also developed from scratch.</td>
+                </tr>
+                <tr>
+                  <td>2.011</td>
+                  <td><a href="http://www.lidefutbolatlantico.net">www.LiDeFutbolAtlantico.net</a></td>
+                  <td>WebSite for the "Liga de Fútbol del Atlántico". Designed and Coded by me using Joomla.</td>
+                  <td>Joomla using an adapted Joomla free theme.</td>
+                </tr>
+                <tr>
+                  <td>2.008</td>
+                  <td><a href="http://www.luzentuvida.net">www.LuzEnTuVida.net</a></td>
+                  <td>WebSite as a personal project. Designed and Coded by me using PHP.</td>
+                  <td>JQuery Mobile, HTML5, CSS3, PHP5, MySQL5. It also have node-webkit desktop versions for Windows and Linux, and also an Android, iOS and wIndows Phone 8 compatible code.</td>
+                </tr>
+              </tbody>
+              <a name="social"></a>
+
+              </table_respon>
+          </showcase>
+          
+          <social />
+          
+    </sections>
+
+  </body>
+</page>
